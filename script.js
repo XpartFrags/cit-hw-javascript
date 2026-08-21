@@ -22,7 +22,19 @@ function checkAge(age, name) {
 if (age < 18) {
 alert("You can't enter. You are a student.")
 
+} if (age < 18) {
+    alert("You can't enter. You are a student.");
+
 } else if (age < 30) {
+    alert("Keep learning!");
+
+} else if (age <= 80) {
+    // Enter the website
+
+} else {
+    alert("A horror incident happened... 👻");
+}
+else if (age < 30) {
 
  alert("You are not a teacher.")
 
